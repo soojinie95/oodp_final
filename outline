@@ -1,0 +1,31 @@
+package Game;
+
+public abstract class Monster {
+    private int hp;
+    private int exp;
+    private int damage;
+    private String name;
+    private String type;
+
+    abstract public void setDamage();
+}
+
+public class BossMonster extends Monster {
+       public void setDamage() {
+           damage = 5;
+       }
+}
+
+public class MidMonser extends Monster{
+
+}
+
+public class LowMonster extends Monster{
+
+}
+
+public class character{
+    private int level, exp, hp, attackpoint, money;
+    private String name, type;
+    
+}
